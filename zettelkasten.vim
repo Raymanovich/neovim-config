@@ -1,4 +1,6 @@
 " ZETTELKASTEN CONFIGURATION
+" Note that $NOTES_DIR is an environment variable pointing to the single flat
+" directory I keep all my zettels in
 
 " Change working directory to my zettelkasten and open index
 nnoremap <leader>zi :e $NOTES_DIR/index-202202270044.md<CR>:cd $NOTES_DIR<CR>:pwd<CR>
@@ -27,6 +29,9 @@ nnoremap <leader>tt :!ctags -R . <CR>
 
 
 " Update tag list in index.md 
+" Very much work in progress, haven't found a good way to delete the old list
+" of tags from index yet
+
 " function GenerateTags()
 " :execute ':%read !sed ''/^\!_/d'' $NOTES_DIR/tags | sed ''/^\@/d'' $NOTES_DIR/index-202202270044.md | awk ''{ print "@" $1 }'' | sort -u'
 " endfunction
