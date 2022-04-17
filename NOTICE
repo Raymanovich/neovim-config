@@ -1,0 +1,6 @@
+I included the Apache 2 license as it is the one used by neovim and I was unsure whether it would be needed in this case.
+
+Some of the contents of these configuration files consist of bits and pieces of examples written by people online, it is not a solely original work.
+
+I provide no warranty of any kind what so ever. As tweaking my neovim configuration is an ongoing process, I can in fact guarantee that some parts of it will not work.
+

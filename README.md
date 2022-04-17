@@ -1,7 +1,11 @@
 # neovim-config
-My personal neovim config for basic latex usage, writing notes and editing config files. 
+My personal neovim config for basic latex usage, writing notes and editing config files.
 
 Setting up neovim for coding is a future project.
+
+This project exists mainly to populate my github profile, and perhaps to provide some
+inspiration for someone.
+
 
 This includes some configuration that enable me to use neovim as the editor to my own zettelkasten, 
 using [this excelent blog post series][1] as reference. 
