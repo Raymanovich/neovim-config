@@ -1,0 +1,1 @@
+/home/ray/.xdg/config/nvim/spellcheck.vim
