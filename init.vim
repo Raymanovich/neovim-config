@@ -9,7 +9,7 @@ call plug#begin('$XDG_CONFIG_HOME/nvim/plugged')
     Plug 'airblade/vim-gitgutter'  
     Plug 'lervag/vimtex'  
     " Plug 'github/copilot.vim'  
-    " " Seemed not to work for me, I manually
+    " Seemed not to work for me, I manually
     " cloned the repo into my config directory instead
     
     " Plug 'vim-pandoc/vim-pandoc'  
