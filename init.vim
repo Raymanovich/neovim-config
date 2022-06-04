@@ -46,8 +46,15 @@ nnoremap k gk
 inoremap kj <esc>
 cnoremap kj <C-C>
 
+" Mouse related settings
+set mousehide 
+set mouse=a
+
 " Latex related
+let g:vimtex_quickfix_autoclose_after_keystrokes = 2
+let g:vimtex_complete_close_braces = 1
 let g:vimtex_view_method = 'mupdf'
+" let g:vimtex_view_mupdf_send_keys = '<shift>z'
 
 " Spellchecking config 
 source $XDG_CONFIG_HOME/nvim/spellcheck.vim
